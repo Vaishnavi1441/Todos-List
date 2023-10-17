@@ -1,7 +1,7 @@
-import { projectList, saveToLocalStorage } from "./creatingProject";
-import { hideDropDown, revertOptionLocation } from "./editingProject";
-import { displayTask, processDateData } from "./creatingTask";
-import { checkWhichHomeTile } from "./homeSection";
+import { projectList, saveToLocalStorage } from "/src/creatingProject";
+import { hideDropDown, revertOptionLocation } from "/src/editingProject";
+import { displayTask, processDateData } from "/src/creatingTask";
+import { checkWhichHomeTile } from "/src/homeSection";
 
 //style completed task
 function styleCompletedTask(e){

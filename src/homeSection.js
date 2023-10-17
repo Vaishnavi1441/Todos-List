@@ -1,7 +1,7 @@
 import { addDays, format, isEqual, isWithinInterval } from "date-fns";
 import parseISO from "date-fns/parseISO";
-import { projectList, hideAddTaskBtn } from "./creatingProject";
-import { addTask } from "./creatingTask";
+import { projectList, hideAddTaskBtn } from "/src/creatingProject";
+import { addTask } from "/src/creatingTask";
 
 function checkWhichHomeTile(homeTile){
     if(homeTile.matches("#allTasks")){

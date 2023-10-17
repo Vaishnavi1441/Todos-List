@@ -1,6 +1,6 @@
-import {projectList, createSpanIcon, saveToLocalStorage} from "./creatingProject"
+import {projectList, createSpanIcon, saveToLocalStorage} from "/src/creatingProject"
 import {styleCompletedTask, updateCompletedTask,styleImportantTask, updateImportantTask ,deleteTask,showEditForm,
-        revertEditFormLocation, processEditTask, showHiddenTask} from "./editingTask"
+        revertEditFormLocation, processEditTask, showHiddenTask} from "/src/editingTask"
 
 function listEvent(){
     const addList = document.querySelector("#addList");

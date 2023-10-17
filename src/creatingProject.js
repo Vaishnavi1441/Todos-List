@@ -1,8 +1,8 @@
-import { displayTask, updateTitle, id} from "./creatingTask";
-import { revertEditFormLocation } from "./editingTask";
-import { revertOptionLocation } from "./editingProject";
-import { dragStartEndEvent } from "./dragAndDrop";
-import { checkWhichHomeTile } from "./homeSection";
+import { displayTask, updateTitle, id} from "/src/creatingTask";
+import { revertEditFormLocation } from "/src/editingTask";
+import { revertOptionLocation } from "/src/editingProject";
+import { dragStartEndEvent } from "/src/dragAndDrop";
+import { checkWhichHomeTile } from "/src/homeSection";
 
 const createEventListener = () =>{
     //event listener for creating a form for adding projects

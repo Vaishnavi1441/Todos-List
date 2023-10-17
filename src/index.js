@@ -1,8 +1,8 @@
-import {createEventListener} from "./creatingProject";
-import { listEvent} from "./creatingTask";
-import { editContainerEventListener} from "./editingProject";
-import {dragAndDropEvent} from "./dragAndDrop";
-import {displayAllTasks} from "./homeSection";
+import {createEventListener} from "/src/creatingProject";
+import { listEvent} from "/src/creatingTask";
+import { editContainerEventListener} from "/src/editingProject";
+import {dragAndDropEvent} from "/src/dragAndDrop";
+import {displayAllTasks} from "/src/homeSection";
 
 listEvent();
 createEventListener();

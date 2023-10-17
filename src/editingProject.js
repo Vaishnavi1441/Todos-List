@@ -1,5 +1,5 @@
-import {projectList, saveToLocalStorage} from "./creatingProject"
-import {updateTitle} from "./creatingTask"
+import {projectList, saveToLocalStorage} from "/src/creatingProject"
+import {updateTitle} from "/src/creatingTask"
 
 //fire event listener for editing projects
 function editContainerEventListener(){

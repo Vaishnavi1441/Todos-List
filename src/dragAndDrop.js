@@ -1,5 +1,5 @@
-import { projectList } from "./creatingProject";
-import {sortArray} from "./editingProject"
+import { projectList } from "/src/creatingProject";
+import {sortArray} from "/src/editingProject"
 
 function dragAndDropEvent (){
     const project = document.querySelector(".project");
